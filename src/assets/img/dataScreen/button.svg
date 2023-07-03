@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="54px" viewBox="0 0 141 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2备份</title>
+    <defs>
+        <linearGradient x1="92.1297718%" y1="44.697045%" x2="0%" y2="55.4991028%" id="linearGradient-1">
+            <stop stop-color="#72D8FF" offset="0%"></stop>
+            <stop stop-color="#2667C5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-202.000000, -106.000000)" stroke="#77C0F3">
+            <g id="编组-2备份" transform="translate(203.000000, 107.000000)">
+                <path d="M23.2303224,8.5 L118.090182,8.5 L124.5,14.4658557 L124.5,39.3133583 L118.085042,45.5 L23.235396,45.5 L16.5,39.3063108 L16.5,14.4729384 L23.2303224,8.5 Z" id="矩形" fill="url(#linearGradient-1)" opacity="0.183321221"></path>
+                <path d="M120.646791,5.5 L127.5,12.4399856 L127.5,41.3034509 L120.641556,48.5 L19.6997714,48.5 L12.5,41.2965165 L12.5,12.4469726 L19.6945864,5.5 L120.646791,5.5 Z" id="矩形备份-6"></path>
+                <g id="编组" stroke-linejoin="round">
+                    <polyline id="路径" points="15.6 51 7.33084836 51 0 42.3109304 0 8.38569714 7.33084836 0 14.0540213 0"></polyline>
+                    <polyline id="路径" points="3.6 19 3.6 10.2970597 11.1113175 2 18 2"></polyline>
+                </g>
+                <g id="编组备份-2" transform="translate(130.000000, 26.500000) scale(-1, -1) translate(-130.000000, -26.500000) translate(121.000000, 1.000000)" stroke-linejoin="round">
+                    <polyline id="路径" points="15.6 51 7.33084836 51 0 42.3109304 0 8.38569714 7.33084836 0 14.0540213 0"></polyline>
+                    <polyline id="路径" points="3.6 19 3.6 10.2970597 11.1113175 2 18 2"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

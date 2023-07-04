@@ -27,7 +27,7 @@ onUnmounted(() => {
 <template>
   <div class="home" id="home">
     <header class="header">
-      <h2 class="title">可视化平台</h2>
+      <h2 class="title">可视化</h2>
     </header>
     <main class="main">
       <section class="left">

@@ -1,4 +1,4 @@
-name: react-template
+name: vue3-data-screen
 
 on:
   push:

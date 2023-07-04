@@ -19,7 +19,7 @@ jobs:
         node-version: '16.X'
 
     - name: Install Dependencies
-      run: pnpm
+      run: pnpm install
 
     - name: Build Production Assets
       run: pnpm build

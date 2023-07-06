@@ -1,5 +1,7 @@
 # vue-data-screen
 
+[预览](https://codeyusan.github.io/vue3-data-screen/)
+
 <!-- 
 ## Type Support for `.vue` Imports in TS
 

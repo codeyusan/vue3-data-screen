@@ -66,13 +66,13 @@ onUnmounted(() => {
     background-image: url('@/assets/img/home/header.png');
     height: 100px;
     width: 1920px;
-    .title {
+  }
+  .header .title {
       color: #fff;
       font-size: 38px;
       text-align: center;
       padding-top: 8px;
     }
-  }
   .main {
     display: flex;
     height: 980px;
@@ -81,7 +81,7 @@ onUnmounted(() => {
       width: 475px;
       display: flex;
       flex-direction: column;
-      height: 980px;
+      /* height: 980px; */
       .pie {
         background-image: url('@/assets/img/home/panel.png');
         width: 100%;

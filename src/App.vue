@@ -11,14 +11,13 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
  -->
- <div class="wrapper">
-  <RouterView />
- </div>
+  <div class="wrapper">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
 .wrapper {
   min-height: 100vh;
 }
-
 </style>

@@ -28,7 +28,6 @@ export const getPieOptions = (data) => {
             shadowColor: 'rgba(0, 0, 0, 0.5)'
           }
         }
-        
       }
     ]
   }

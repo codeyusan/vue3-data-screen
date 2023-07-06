@@ -1,27 +1,30 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from 'vue';
-import {getBarOptions} from '@/options/barOptions.js';
-import {getPieOptions} from '@/options/pieOptions.js';
+import { onMounted, onUnmounted, ref } from 'vue'
+import { getBarOptions } from '@/options/barOptions.js'
+import { getPieOptions } from '@/options/pieOptions.js'
 import Chart from '@/components/home/Chart.vue'
 
 const handleScreenAuto = () => {
-  const designDraftWidth = 1920;
-  const designDraftHeight = 1080;
-  const scale = document.documentElement.clientWidth / document.documentElement.clientHeight < designDraftWidth / designDraftHeight ?
-      (document.documentElement.clientWidth / designDraftWidth) :
-      (document.documentElement.clientHeight / designDraftHeight);
-  (document.querySelector('#home') as HTMLElement).style.transform = `scale(${scale}) translate(-50%)`;
+  const designDraftWidth = 1920
+  const designDraftHeight = 1080
+  const scale =
+    document.documentElement.clientWidth / document.documentElement.clientHeight <
+    designDraftWidth / designDraftHeight
+      ? document.documentElement.clientWidth / designDraftWidth
+      : document.documentElement.clientHeight / designDraftHeight
+  ;(
+    document.querySelector('#home') as HTMLElement
+  ).style.transform = `scale(${scale}) translate(-50%)`
 }
 
 onMounted(() => {
   handleScreenAuto()
-  window.onresize = () => handleScreenAuto();
+  window.onresize = () => handleScreenAuto()
 })
 
 onUnmounted(() => {
   window.onresize = null
 })
-
 </script>
 
 <template>
@@ -68,16 +71,17 @@ onUnmounted(() => {
     width: 1920px;
   }
   .header .title {
-      color: #fff;
-      font-size: 38px;
-      text-align: center;
-      padding-top: 8px;
-    }
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 8px;
+  }
   .main {
     display: flex;
     height: 980px;
     padding: 5px 10px 10px;
-    .left, .right {
+    .left,
+    .right {
       width: 475px;
       display: flex;
       flex-direction: column;

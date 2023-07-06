@@ -5,7 +5,7 @@ export const getBarOptions = (data) => {
     },
     grid: {
       left: '12%',
-      top: '15%',
+      top: '15%'
     },
     tooltip: {},
     xAxis: {

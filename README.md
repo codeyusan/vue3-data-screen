@@ -2,6 +2,9 @@
 
 [预览](https://codeyusan.github.io/vue3-data-screen/)
 
+<img width="1203" alt="image" src="https://github.com/codeyusan/vue3-data-screen/assets/85822620/a0e34e65-3314-4e1d-b4eb-37ddfda81a14">
+
+
 <!-- 
 ## Type Support for `.vue` Imports in TS
 

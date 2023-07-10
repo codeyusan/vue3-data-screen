@@ -9,6 +9,9 @@
     },
     {
       "path": "./tsconfig.vitest.json"
+    },
+    {
+      "path": "./src/assets/json/home/HKmap.json"
     }
   ]
 }

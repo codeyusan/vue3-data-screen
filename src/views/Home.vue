@@ -3,6 +3,7 @@ import { onMounted, onUnmounted, ref } from 'vue'
 import { getBarOptions } from '@/options/barOptions.js'
 import { getPieOptions } from '@/options/pieOptions.js'
 import Chart from '@/components/home/Chart.vue'
+import EchartsMap from '@/components/home/EchartsMap.vue'
 
 const handleScreenAuto = () => {
   const designDraftWidth = 1920
@@ -42,7 +43,9 @@ onUnmounted(() => {
         </div>
       </section>
       <section class="center">
-        <div class="map"></div>
+        <div class="map">
+          <EchartsMap></EchartsMap>
+        </div>
       </section>
       <section class="right">
         <div class="pie">

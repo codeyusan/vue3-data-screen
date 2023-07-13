@@ -8,6 +8,13 @@ import { requestFullScreen, exitFullScreen } from '@/utils/common.js'
 
 const title = '可视化后台'
 
+const browserEvents = [
+  'fullscreenchange',
+  'mozfullscreenchange',
+  'webkitfullscreenchange',
+  'MSFullscreenChange'
+]
+
 const homeRef = ref()
 let isFullScreen = ref(false)
 
@@ -35,13 +42,15 @@ const fullScreenChange = () => {
 
 onMounted(() => {
   handleScreenAuto()
-  document.addEventListener('fullscreenchange', fullScreenChange)
+  browserEvents.forEach((item) => document.addEventListener(item, fullScreenChange))
+  // document.addEventListener('fullscreenchange', fullScreenChange)
   window.onresize = () => handleScreenAuto()
 })
 
 onUnmounted(() => {
   window.onresize = null
-  document.removeEventListener('fullscreenchange', fullScreenChange)
+  browserEvents.forEach((item) => document.removeEventListener(item, fullScreenChange))
+  // document.removeEventListener('fullscreenchange', fullScreenChange)
 })
 </script>
 

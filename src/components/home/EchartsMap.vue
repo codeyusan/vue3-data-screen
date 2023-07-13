@@ -2,7 +2,7 @@
 import * as echarts from 'echarts'
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
-import {getHKOptions} from '@/options/mapOptionHK.js'
+import { getHKOptions } from '@/options/mapOptionHK.js'
 import HKJson from '@/assets/json/home/HKmap.json'
 
 let chartInstance = ref()
@@ -15,8 +15,8 @@ const init = () => {
   //   echarts.registerMap('HK', res.data);
   //   chartInstance.value.setOption(getHKOptions());
   // })
-  echarts.registerMap('HK', HKJson as any);
-  chartInstance.value.setOption(getHKOptions());
+  echarts.registerMap('HK', HKJson as any)
+  chartInstance.value.setOption(getHKOptions())
 }
 
 onMounted(() => {

@@ -8,7 +8,7 @@ export const getHKOptions = (data) => {
       subtext: 'Data from Wikipedia',
       subtextStyle: {
         color: '#fff'
-      },
+      }
       // sublink: 'http://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83#cite_note-12'
     },
     tooltip: {
@@ -28,7 +28,7 @@ export const getHKOptions = (data) => {
       },
       iconStyle: {
         borderColor: '#fff'
-      },
+      }
     },
     visualMap: {
       min: 800,
@@ -41,7 +41,7 @@ export const getHKOptions = (data) => {
       },
       textStyle: {
         color: '#fff'
-      },
+      }
     },
     series: [
       {
